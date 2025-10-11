@@ -375,6 +375,13 @@
         </reserved_si_message>
       </si_message>
     </auxiliary_video_stream_descriptor>
+    <media_authenticity_descriptor uri="urn:tsduck:media_authenticity:v0"/>
+    <media_authenticity_descriptor uri="urn:tsduck:media_authenticity:v1" register_index="134"/>
+    <media_authenticity_descriptor uuid="01234567-1234-5678-ABCD-112233445566"/>
+    <media_authenticity_descriptor uuid="0199D218-8B75-78F2-B73A-39E8A846269B">
+      <authenticated_stream stream_type="0x21" authenticated_stream_ids="1 2 3 4 5"/>
+      <authenticated_stream stream_type="0x04" authenticated_stream_ids="202 101 99 155 12 93 53"/>
+    </media_authenticity_descriptor>
   </PMT>
   <NIT version="0" current="true" network_id="0x0000" actual="true">
     <service_prominence_descriptor>

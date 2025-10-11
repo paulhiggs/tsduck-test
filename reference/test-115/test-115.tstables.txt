@@ -1,6 +1,6 @@
 
 * PMT, TID 0x02 (2), PID 0x00C8 (200)
-  Version: 0, sections: 2, total size: 1381 bytes
+  Version: 0, sections: 2, total size: 1514 bytes
   - Section 0:
     Program: 0x0000 (0), PCR PID: none
     Program information:
@@ -508,6 +508,23 @@
        Parallax zero: 36463, scale: 849, wref: 1010cm, dref: 2020cm
       SI Message, type: 0x00001001, size: 5
        Reserved SI message (5 bytes): 98 76 54 32 10
+    - Descriptor 13: MPEG-2 Extension (0x3F, 63), 35 bytes
+      MPEG extended descriptor: Media Authenticity (0x1A, 26)
+      Key Source URI: urn:tsduck:media_authenticity:v0
+    - Descriptor 14: MPEG-2 Extension (0x3F, 63), 37 bytes
+      MPEG extended descriptor: Media Authenticity (0x1A, 26)
+      Key Source URI: urn:tsduck:media_authenticity:v1
+      Register Index: 134
+    - Descriptor 15: MPEG-2 Extension (0x3F, 63), 18 bytes
+      MPEG extended descriptor: Media Authenticity (0x1A, 26)
+      Content UUID: 01234567-1234-5678-ABCD-112233445566
+    - Descriptor 16: MPEG-2 Extension (0x3F, 63), 35 bytes
+      MPEG extended descriptor: Media Authenticity (0x1A, 26)
+      Stream type: 0x21 (JPEG 2000 video stream ISO/IEC 15444-1)
+       Stream IDs:   1   2   3   4   5
+      Stream type: 0x04 (MPEG-2 Audio)
+       Stream IDs: 202 101  99 155  12  93  53
+      Content UUID: 0199D218-8B75-78F2-B73A-39E8A846269B
 
 * NIT Actual, TID 0x40 (64), PID 0x00C8 (200)
   Version: 0, sections: 1, total size: 158 bytes

@@ -1621,6 +1621,35 @@
           }
         ],
         "aux_video_codedstreamtype": 50
+      },
+      {
+        "#name": "media_authenticity_descriptor",
+        "uri": "urn:tsduck:media_authenticity:v0"
+      },
+      {
+        "#name": "media_authenticity_descriptor",
+        "register_index": 134,
+        "uri": "urn:tsduck:media_authenticity:v1"
+      },
+      {
+        "#name": "media_authenticity_descriptor",
+        "uuid": "01234567-1234-5678-ABCD-112233445566"
+      },
+      {
+        "#name": "media_authenticity_descriptor",
+        "#nodes": [
+          {
+            "#name": "authenticated_stream",
+            "authenticated_stream_ids": "1 2 3 4 5",
+            "stream_type": 33
+          },
+          {
+            "#name": "authenticated_stream",
+            "authenticated_stream_ids": "202 101 99 155 12 93 53",
+            "stream_type": 4
+          }
+        ],
+        "uuid": "0199D218-8B75-78F2-B73A-39E8A846269B"
       }
     ],
     "current": true,
